@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vote for Your Favorites</title>
+    <title>  TY </title>
     <style>
         body
  {
@@ -17,75 +17,6 @@
     </style>
 </head>
 <body>
-<img src="https://cdn.dribbble.com/users/3425917/screenshots/6569103/fg.gif">
-<h1> NOTE: </h1> <h3> this site is still in progress, beta version ig? </h3>
-    <h2>Vote for Your Favorites</h2>
-    <form id="votingForm">
-        <h2> YENO <input type="radio" name="group1" value="YENO"></h2>
-<br> or
-        <h2> VINN <input type="radio" name="group1" value="VINN"></h2>
-<hr>
-        <h2> ROSYCLOZY <input type="radio" name="group2" value="ROSYCLOZY"></h2>
-<br> or
-        <h2> NOTZOEY <input type="radio" name="group2" value="NOTZOEY"></h2>
-<hr>
-        <h2> Y3LLOW <input type="radio" name="group3" value="Y3LLOW"></h2> <br> or
-        <h2> CINNA <input type="radio" name="group3" value="CINNA"></h2>
-<hr>
-        <h2> WISE FOX <input type="radio" name="group4" value="WISEFOX"></h2> <br> or
-        <h2> NEHEMA <input type="radio" name="group4" value="NEHEMA"></h2>
-<hr>
-        <h2> BONA <input type="radio" name="group5" value="BONA"></h2> <br> or
-        <h2> BONA <input type="radio" name="group5" value="BONA"></h2>
-<hr>
-        <h2> MEMES <input type="radio" name="group6" value="MEMES"></h2> <br> or
-        <h2> TRENDS <input type="radio" name="group6" value="TRENDS"></h2>
-<hr>
-        <h2> SERIES <input type="radio" name="group7" value="SERIES"></h2> <br> or
-        <h2> ANIMATIONS <input type="radio" name="group7" value="ANIMATIONS"></h2>
-<hr>
-        <br>
-        <input type="submit" value="Submit Vote">
-    </form>
-
-    <div id="result"></div>
-
-    <script>
-        document.getElementById("votingForm").addEventListener("submit", function(event) {
-            event.preventDefault();
-
-            var selectedOptions = [];
-
-            // Loop through each group and get the selected option
-            for (var i = 1; i <= 7; i++) {
-                var groupName = "group" + i;
-                var selectedOption = document.querySelector('input[name="' + groupName + '"]:checked');
-
-                if (selectedOption) {
-                    selectedOptions.push(selectedOption.value);
-                } else {
-                    selectedOptions.push("No vote");
-                }
-            }
-
-            // Display the selected options
-            document.getElementById("result").innerHTML = "<h2>Your Votes:</h2>" +
-                "<p>1. " + selectedOptions[0] + "</p>" +
-                "<p>2. " + selectedOptions[1] + "</p>" +
-                "<p>3. " + selectedOptions[2] + "</p>" +
-                "<p>4. " + selectedOptions[3] + "</p>" +
-                "<p>5. " + selectedOptions[4] + "</p>" +
-                "<p>6. " + selectedOptions[5] + "</p>" +
-                "<p>7. " + selectedOptions[6] + "</p>";
-
-            // You can add your logic to store and process the votes here
-            // For now, let's just display a message indicating the vote has been recorded
-            alert("Votes recorded! Thank you for participating.");
-        });
-    </script>
-<hr>
-<hr>
-<hr>
-<img src="https://i.pinimg.com/originals/07/e3/14/07e31469266ae3c9c29b357ceea630dc.gif">
+THANK YOU FOR SELECTING ><
 </body>
 </html>
